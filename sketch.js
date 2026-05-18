@@ -25,7 +25,7 @@ function preload() {
   //   tileImages[i] = loadImage(`/tiles/road${i}.png`); // road1.png to road4.png
   // }
   for (let i = 0; i < numOfImages; i++) {
-    tileImages[i] = loadImage(`/tiles/landScape${i}.png`); // road1.png to road4.png
+    tileImages[i] = loadImage(`tiles/landScape${i}.png`); // road1.png to road4.png
   }
 }
 
